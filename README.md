@@ -1,13 +1,33 @@
 # Meetupz
 
-This project runs on Vite with React and Tailwind CSS.
+A meetup management app built with React, React Router, Tailwind CSS, and Vite.
+
+## Stack
+
+- React 18
+- React Router 6
+- Tailwind CSS 3
+- Vite 5
 
 ## Scripts
 
 - `npm run dev`: Start the Vite development server.
 - `npm run build`: Build production assets into `dist/`.
 - `npm run preview`: Preview the production build locally.
-- `npm test`: Run tests with Vitest.
+- `npm test`: Print a placeholder message (no test framework configured).
+
+## App Routes
+
+- `/`: Meetups home/list screen
+- `/meetups/add`: Create a meetup
+- `/meetups/:id`: Meetup details
+- `/meetups/edit/:id`: Edit a meetup
+- `/about`: About page
+
+## Notes
+
+- Legacy Create React App service worker code has been removed.
+- Route entry animations were removed to avoid flickering when navigating back to the home screen.
 
 ## Development
 
